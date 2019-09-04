@@ -1,4 +1,3 @@
-
 public class math1 {
 
     public static void main(String[] args){
@@ -12,24 +11,19 @@ public class math1 {
         e=sc.nextInt();
         f=sc.nextInt();
         int x,y;
-        try {
+        try{
 
             x = (c * e - b * f) / ( a * e - d * b);
             y = -1*(c * d - e * f) / ( b * d - a * e);
             System.out.println("x:"+x+"\n"+"y:"+y);
 
         }catch (java.lang.ArithmeticException exception){
+            
             if((c*e-b*f)==0)
                 System.out.println("too many ans");
             else
                 System.out.println("0 Answer");
+        
         }
-
-
-        //System.out.println(x1/0);
-
-
     }
-
-
 }
