@@ -9,7 +9,7 @@ public class Main {
         System.out.print("This program can store any item u want.\nFirst type a name to add first item.\nadd ");
         test = new Test(sc.next());
         Test cache = test;
-        System.out.println("Great!Let's start this item!!You can type 'help' to get command list");
+        System.out.println("Great!Let's start this program!!You can type 'help' to get command list");
 
         while (true) {
 
@@ -35,7 +35,7 @@ public class Main {
                 System.out.println("This is the command list:");
                 System.out.println("  add    -to add item");
                 System.out.println("  show   -to show the item list you have");
-                System.out.println("  stop   -to stop this program");
+                System.out.println("  exit   -to stop this program");
                 System.out.println("  help   -to show command list");
             } else
                 System.out.println("Can't find that command!!!");
